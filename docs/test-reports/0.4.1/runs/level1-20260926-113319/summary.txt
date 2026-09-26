@@ -1,0 +1,12 @@
+PASS  [main] Core-logic autotests (limits, categories, merge) — Проверок: 41, провалено: 0
+PASS  [main] REST API (nonce, limits, CRUD, merge) —   проверок: 12, провалено: 0
+PASS  [main] Frontend: button, counter, toast, re-click (chromium) — 17/17 проверок
+PASS  [main] Comparison table: page, fields, static shortcode (chromium) — 7/7 проверок
+PASS  [main] Activation — 7.1.2 · WooCommerce 11.1.2 · PHP 8.3
+PASS  [main] Data version written at activation — rvn_compare_version = 0.4.1
+PASS  [main] Browser: RVN menu, pages, Settings link (chromium) — 27/27 проверок
+PASS  [main] Without WooCommerce: notice instead of operation — 4/4 проверок
+PASS  [main] Uninstall with deletion disabled keeps data — rvn_compare_version in place
+PASS  [main] Default uninstall cleans data — plugin options removed
+PASS  [main] WP_DEBUG: nothing from the plugin — other-component entries: 0
+PASS  Plugin Check (official catalog scanner) — no errors, no warnings

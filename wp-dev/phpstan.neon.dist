@@ -1,0 +1,27 @@
+# Статический анализ PHPStan для плагина RVN Compare.
+# Заглушки WordPress и WooCommerce ставит `bash wp-dev/stand.sh install` в /tmp/wp-tools.
+includes:
+	- /tmp/wp-tools/composer/vendor/szepeviktor/phpstan-wordpress/extension.neon
+
+parameters:
+	level: 6
+	# Один процесс: параллельный анализ упирается в память песочницы.
+	parallel:
+		maximumNumberOfProcesses: 1
+	# Данные из хуков WordPress приходят от стороннего кода: PHPDoc-типам не доверяем, проверки типов оставляем.
+	treatPhpDocTypesAsCertain: false
+	phpVersion: 80100
+	paths:
+		- ../rvn-compare-products-for-woocommerce
+	excludePaths:
+		- ../rvn-compare-products-for-woocommerce/languages/*
+	bootstrapFiles:
+		- phpstan-bootstrap.php
+	scanFiles:
+		- /tmp/wp-tools/composer/vendor/php-stubs/woocommerce-stubs/woocommerce-stubs.php
+		- /tmp/wp-tools/composer/vendor/php-stubs/woocommerce-stubs/woocommerce-packages-stubs.php
+	dynamicConstantNames:
+		- RVN_COMPARE_VERSION
+		- RVN_COMPARE_MIN_PHP
+		- RVN_COMPARE_MIN_WP
+		- RVN_COMPARE_MIN_WC

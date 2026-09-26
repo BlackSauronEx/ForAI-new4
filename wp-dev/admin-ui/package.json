@@ -1,0 +1,14 @@
+{
+  "name": "rvn-compare-admin-ui",
+  "version": "0.5.0",
+  "private": true,
+  "description": "Admin settings UI sources (0.5.0). Built into the plugin assets/admin/ folder; never shipped to users.",
+  "scripts": {
+    "build": "wp-scripts build"
+  },
+  "devDependencies": {
+    "@wordpress/components": "latest",
+    "@wordpress/element": "latest",
+    "@wordpress/scripts": "latest"
+  }
+}

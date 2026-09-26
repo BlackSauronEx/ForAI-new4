@@ -1,0 +1,7 @@
+PO собран: /app/rvn-compare-products-for-woocommerce/languages/rvn-compare-products-for-woocommerce-ru_RU.po (307 строк переведено)
+Строк в шаблоне: 308 (включая заголовок); файлы:
+index.php
+rvn-compare-products-for-woocommerce-ru_RU.l10n.php
+rvn-compare-products-for-woocommerce-ru_RU.mo
+rvn-compare-products-for-woocommerce-ru_RU.po
+rvn-compare-products-for-woocommerce.pot

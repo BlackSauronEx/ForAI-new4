@@ -1,0 +1,5 @@
+PASS  PHP syntax (8.1 8.3) — 49 files
+PASS  Entrypoints on PHP 7.0+ — main file, uninstall.php, core bootstrap
+PASS  WPCS + Security + PHP 8.1+ — 0 errors, 0 warnings
+PASS  PHPStan level 6 (WP + Woo stubs) — no errors
+PASS  i18n: POT fresh, ru_RU complete — 308 entries

@@ -1,0 +1,13 @@
+  ok GET /list отвечает — HTTP 200
+  ok список гостя нормализуется (дубли убраны) — count=2
+  ok GET /table строит таблицу по списку гостя — HTTP 200, tabs=2
+  ok GET /table принимает фиксированные products — HTTP 200, tabs=1
+  ok изменение без ключа (nonce) запрещено — HTTP 403
+  ok добавление товара — status=added
+  ok повторное добавление — already — status=already
+  ok несуществующий товар отклонён — status=not_found
+  ok некорректный ID товара отклонён — HTTP 400
+  ok удаление товара — count=1
+  ok очистка списка — status=cleared
+  ok слияние для гостя отклоняется — status=not_user
+  проверок: 12, провалено: 0

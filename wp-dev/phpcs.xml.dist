@@ -1,0 +1,47 @@
+<?xml version="1.0"?>
+<ruleset name="RVN Compare">
+	<description>Стандарты кода плагина RVN Compare Products for WooCommerce: WordPress Coding Standards (Core, Docs, Extra, Security) и совместимость с PHP 8.1+.</description>
+
+	<file>../rvn-compare-products-for-woocommerce</file>
+	<exclude-pattern>*/languages/*</exclude-pattern>
+	<!-- Generated admin bundle (wp-scripts output, incl. the conventional *.asset.php
+	     filename); sources live in wp-dev/admin-ui/src and are reviewed there. -->
+	<exclude-pattern>*/assets/admin/*</exclude-pattern>
+
+	<arg name="extensions" value="php"/>
+	<arg name="parallel" value="8"/>
+	<arg value="s"/>
+
+	<config name="minimum_wp_version" value="6.4"/>
+	<config name="testVersion" value="8.1-"/>
+
+	<rule ref="WordPress"/>
+	<rule ref="PHPCompatibilityWP"/>
+
+	<rule ref="WordPress.WP.I18n">
+		<properties>
+			<property name="text_domain" type="array">
+				<element value="rvn-compare-products-for-woocommerce"/>
+			</property>
+		</properties>
+	</rule>
+
+	<rule ref="WordPress.NamingConventions.PrefixAllGlobals">
+		<properties>
+			<property name="prefixes" type="array">
+				<element value="rvn_compare"/>
+				<element value="rvn_core"/>
+				<element value="RVN_Compare"/>
+				<element value="RVN_Core"/>
+			</property>
+		</properties>
+	</rule>
+
+	<rule ref="WordPress.WP.Capabilities">
+		<properties>
+			<property name="custom_capabilities" type="array">
+				<element value="manage_woocommerce"/>
+			</property>
+		</properties>
+	</rule>
+</ruleset>

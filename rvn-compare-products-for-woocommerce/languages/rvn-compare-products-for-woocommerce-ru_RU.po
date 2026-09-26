@@ -1,0 +1,1321 @@
+# Russian translation for RVN Compare Products for WooCommerce.
+# This file is distributed under the same license as the plugin.
+msgid ""
+msgstr ""
+"Project-Id-Version: RVN Compare Products for WooCommerce 0.4.1\n"
+"Language: ru_RU\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+"X-Domain: rvn-compare-products-for-woocommerce\n"
+
+#. Plugin Name of the plugin
+#: rvn-compare-products-for-woocommerce.php
+msgid "RVN Compare Products for WooCommerce"
+msgstr "RVN Compare Products for WooCommerce"
+
+#. Description of the plugin
+#: rvn-compare-products-for-woocommerce.php
+msgid "Product comparison for WooCommerce: compare buttons, a live counter and a clean side-by-side comparison table."
+msgstr "Сравнение товаров для WooCommerce: кнопки «Сравнить», живой счётчик и понятная таблица характеристик."
+
+#. Author of the plugin
+#: rvn-compare-products-for-woocommerce.php
+msgid "Revolen"
+msgstr "Revolen"
+
+#: includes/admin/class-admin.php:67
+#: includes/admin/class-settings-page.php:35
+msgid "Compare settings"
+msgstr "Настройки сравнения"
+
+#: includes/admin/class-admin.php:68
+#: includes/frontend/class-button-renderer.php:45
+#: includes/frontend/class-button-renderer.php:151
+msgid "Compare"
+msgstr "Сравнить"
+
+#: includes/admin/class-admin.php:94
+msgid "Settings"
+msgstr "Настройки"
+
+#: includes/admin/class-buttons-settings.php:99
+msgid "Button settings saved."
+msgstr "Настройки кнопок сохранены."
+
+#: includes/admin/class-buttons-settings.php:131
+msgid "Button settings restored to defaults."
+msgstr "Настройки кнопок возвращены к значениям по умолчанию."
+
+#. translators: phone button mode: same as desktop.
+#: includes/admin/class-buttons-settings.php:152
+msgid "Same as computer"
+msgstr "Как на компьютере"
+
+#: includes/admin/class-buttons-settings.php:158
+#: includes/frontend/class-assets.php:171
+msgid "Remove from comparison"
+msgstr "Убрать из сравнения"
+
+#: includes/admin/class-buttons-settings.php:162
+msgid "Open the comparison page"
+msgstr "Открыть страницу сравнения"
+
+#: includes/admin/class-buttons-settings.php:168
+msgid "Built-in icon set"
+msgstr "Встроенный набор иконок"
+
+#: includes/admin/class-buttons-settings.php:172
+msgid "Custom emoji"
+msgstr "Свой emoji"
+
+#: includes/admin/class-buttons-settings.php:176
+msgid "No icon"
+msgstr "Без иконки"
+
+#: includes/admin/class-buttons-settings.php:183
+msgid "Hide on the listed pages"
+msgstr "Скрывать на указанных страницах"
+
+#: includes/admin/class-buttons-settings.php:187
+msgid "Show only on the listed pages"
+msgstr "Показывать только на указанных страницах"
+
+#: includes/admin/class-buttons-settings.php:193
+msgid "Top left"
+msgstr "Слева сверху"
+
+#: includes/admin/class-buttons-settings.php:194
+msgid "Top center"
+msgstr "По центру сверху"
+
+#: includes/admin/class-buttons-settings.php:195
+msgid "Top right"
+msgstr "Справа сверху"
+
+#: includes/admin/class-buttons-settings.php:196
+msgid "Bottom left"
+msgstr "Слева снизу"
+
+#: includes/admin/class-buttons-settings.php:197
+msgid "Bottom center"
+msgstr "По центру снизу"
+
+#: includes/admin/class-buttons-settings.php:198
+msgid "Bottom right"
+msgstr "Справа снизу"
+
+#: includes/admin/class-buttons-settings.php:199
+msgid "Center of the screen"
+msgstr "По центру экрана"
+
+#: includes/admin/class-buttons-settings.php:254
+msgid "Shop (all products catalog)"
+msgstr "Магазин (каталог всех товаров)"
+
+#: includes/admin/class-buttons-settings.php:255
+msgid "Product categories and tags"
+msgstr "Категории и теги товаров"
+
+#: includes/admin/class-buttons-settings.php:256
+msgid "Search results"
+msgstr "Результаты поиска"
+
+#: includes/admin/class-buttons-settings.php:257
+msgid "Site front page"
+msgstr "Главная страница сайта"
+
+#: includes/admin/class-buttons-settings.php:258
+msgid "Related products on the product page"
+msgstr "Похожие товары на странице товара"
+
+#: includes/admin/class-buttons-settings.php:259
+msgid "Cart (upsells and cross-sells)"
+msgstr "Корзина (апселлы и кросс-сейлы)"
+
+#: includes/admin/class-buttons-settings.php:302
+msgid "After “Add to cart” button"
+msgstr "После кнопки «В корзину»"
+
+#: includes/admin/class-buttons-settings.php:303
+msgid "Before “Add to cart” button"
+msgstr "Перед кнопкой «В корзину»"
+
+#: includes/admin/class-buttons-settings.php:304
+msgid "Above the title"
+msgstr "Выше заголовка"
+
+#: includes/admin/class-buttons-settings.php:305
+msgid "Below the title"
+msgstr "Ниже заголовка"
+
+#: includes/admin/class-buttons-settings.php:306
+msgid "On the image — top left"
+msgstr "На изображении — верхний левый угол"
+
+#: includes/admin/class-buttons-settings.php:307
+msgid "On the image — top right"
+msgstr "На изображении — верхний правый угол"
+
+#: includes/admin/class-buttons-settings.php:308
+msgid "On the image — bottom left"
+msgstr "На изображении — нижний левый угол"
+
+#: includes/admin/class-buttons-settings.php:309
+msgid "On the image — bottom right"
+msgstr "На изображении — нижний правый угол"
+
+#: includes/admin/class-buttons-settings.php:310
+msgid "Hidden (shortcode only)"
+msgstr "Скрыта (только шорткод)"
+
+#: includes/admin/class-buttons-settings.php:321
+msgid "Icon and text"
+msgstr "Иконка и текст"
+
+#: includes/admin/class-buttons-settings.php:322
+msgid "Icon only"
+msgstr "Только иконка"
+
+#: includes/admin/class-buttons-settings.php:323
+msgid "Text only"
+msgstr "Только текст"
+
+#: includes/admin/class-buttons-settings.php:324
+msgid "Text and icon"
+msgstr "Текст и иконка"
+
+#: includes/admin/class-buttons-settings.php:325
+msgid "Text above the icon"
+msgstr "Текст над иконкой"
+
+#: includes/admin/class-buttons-settings.php:326
+msgid "Icon above the text"
+msgstr "Иконка над текстом"
+
+#: includes/admin/class-buttons-settings.php:350
+#: includes/admin/class-general-settings.php:375
+#: includes/admin/class-page-settings.php:110
+#: includes/admin/class-table-settings.php:191
+msgid "You are not allowed to change comparison settings."
+msgstr "У вас нет права изменять настройки сравнения."
+
+#: includes/admin/class-buttons-settings.php:359
+#: includes/admin/class-general-settings.php:384
+msgid "The security token has expired. Please reload the page."
+msgstr "Срок действия токена безопасности истёк. Обновите страницу."
+
+#: includes/admin/class-diagnostics-page.php:48
+#: includes/admin/class-diagnostics-page.php:49
+#: includes/admin/class-diagnostics-page.php:74
+msgid "RVN Diagnostics"
+msgstr "Диагностика RVN"
+
+#: includes/admin/class-diagnostics-page.php:64
+#: includes/admin/class-settings-page.php:28
+#: rvn-core/class-core.php:156
+msgid "Sorry, you are not allowed to access this page."
+msgstr "Извините, у вас нет доступа к этой странице."
+
+#: includes/admin/class-diagnostics-page.php:75
+msgid "Read-only information about this site. Copy the report below and send it to the plugin developer. Nothing is sent anywhere automatically."
+msgstr "Сведения об этом сайте только для чтения. Скопируйте отчёт ниже и отправьте разработчику плагина. Ничего никуда не отправляется автоматически."
+
+#: includes/admin/class-diagnostics-page.php:80
+#: includes/admin/class-settings-page.php:119
+msgid "Component"
+msgstr "Компонент"
+
+#: includes/admin/class-diagnostics-page.php:81
+#: includes/admin/class-settings-page.php:120
+msgid "Current"
+msgstr "Сейчас"
+
+#: includes/admin/class-diagnostics-page.php:94
+msgid "Report"
+msgstr "Отчёт"
+
+#: includes/admin/class-diagnostics-page.php:95
+msgid "Copy this text and paste it into your message."
+msgstr "Скопируйте этот текст и вставьте в сообщение."
+
+#: includes/admin/class-diagnostics-page.php:96
+msgid "Diagnostics report"
+msgstr "Отчёт диагностики"
+
+#: includes/admin/class-diagnostics-page.php:112
+#: includes/admin/class-settings-page.php:152
+msgid "Plugin"
+msgstr "Плагин"
+
+#: includes/admin/class-diagnostics-page.php:121
+msgid "not active"
+msgstr "не активен"
+
+#: includes/admin/class-diagnostics-page.php:128
+msgid "Memory limit"
+msgstr "Лимит памяти"
+
+#: includes/admin/class-diagnostics-page.php:132
+msgid "Theme"
+msgstr "Тема"
+
+#: includes/admin/class-diagnostics-page.php:136
+msgid "Active plugins"
+msgstr "Активные плагины"
+
+#: includes/admin/class-diagnostics-page.php:140
+#: includes/admin/class-settings-page.php:161
+msgid "Order storage"
+msgstr "Хранение заказов"
+
+#: includes/admin/class-diagnostics-page.php:142
+#: includes/admin/class-settings-page.php:163
+msgid "High-Performance Order Storage"
+msgstr "Высокопроизводительное хранение заказов (HPOS)"
+
+#: includes/admin/class-diagnostics-page.php:143
+#: includes/admin/class-settings-page.php:164
+msgid "WordPress posts storage (legacy)"
+msgstr "Хранение в записях WordPress (устаревшее)"
+
+#: includes/admin/class-diagnostics-page.php:146
+msgid "Object cache"
+msgstr "Кэш объектов"
+
+#: includes/admin/class-diagnostics-page.php:148
+msgid "external"
+msgstr "внешний"
+
+#: includes/admin/class-diagnostics-page.php:149
+msgid "built-in"
+msgstr "встроенный"
+
+#: includes/admin/class-diagnostics-page.php:152
+msgid "Page cache"
+msgstr "Кэш страниц"
+
+#: includes/admin/class-diagnostics-page.php:156
+msgid "REST endpoint"
+msgstr "Адрес REST API"
+
+#: includes/admin/class-diagnostics-page.php:160
+msgid "Comparison settings"
+msgstr "Настройки сравнения"
+
+#. translators: 1: Total products limit. 2: Per category limit. 3: Comparison rule.
+#: includes/admin/class-diagnostics-page.php:163
+#, php-format
+msgid "%1$d in total, %2$d per category, rule: %3$s"
+msgstr "всего %1$d, в категории %2$d, правило: %3$s"
+
+#: includes/admin/class-diagnostics-page.php:170
+msgid "Your comparison list"
+msgstr "Ваш список сравнения"
+
+#: includes/admin/class-diagnostics-page.php:186
+msgid "empty"
+msgstr "пусто"
+
+#. translators: %d: Number of products in the list.
+#: includes/admin/class-diagnostics-page.php:191
+#, php-format
+msgid "%d products"
+msgstr "товаров: %d"
+
+#: includes/admin/class-diagnostics-page.php:212
+msgid "none"
+msgstr "нет"
+
+#: includes/admin/class-diagnostics-page.php:224
+msgid "unlimited"
+msgstr "без ограничения"
+
+#. translators: 1: Human-readable size. 2: Raw value from php.ini.
+#: includes/admin/class-diagnostics-page.php:232
+#, php-format
+msgid "%1$s (%2$s)"
+msgstr "%1$s (%2$s)"
+
+#: includes/admin/class-diagnostics-page.php:264
+msgid "advanced-cache.php enabled"
+msgstr "ранний кэш включён"
+
+#: includes/admin/class-diagnostics-page.php:264
+msgid "disabled"
+msgstr "выключен"
+
+#: includes/admin/class-diagnostics-page.php:265
+msgid "no caching plugin"
+msgstr "плагин кэширования не найден"
+
+#: includes/admin/class-general-settings.php:113
+msgid "General settings saved."
+msgstr "Общие настройки сохранены."
+
+#: includes/admin/class-general-settings.php:147
+msgid "General settings restored to defaults."
+msgstr "Общие настройки возвращены к значениям по умолчанию."
+
+#. translators: comparison rule: tabs are the categories assigned to a product.
+#: includes/admin/class-general-settings.php:215
+msgid "Assigned categories"
+msgstr "Назначенные категории"
+
+#. translators: comparison rule: only top-level categories become tabs.
+#: includes/admin/class-general-settings.php:220
+msgid "Top-level categories"
+msgstr "Категории верхнего уровня"
+
+#. translators: comparison rule: one shared tab, no category split.
+#: includes/admin/class-general-settings.php:225
+msgid "All products in one tab"
+msgstr "Все товары в одной вкладке"
+
+#. translators: %d: product ID that no longer exists.
+#: includes/admin/class-general-settings.php:346
+#, php-format
+msgid "Product #%d (deleted)"
+msgstr "Товар #%d (удалён)"
+
+#. translators: %d: category ID that no longer exists.
+#: includes/admin/class-general-settings.php:363
+#, php-format
+msgid "Category #%d (deleted)"
+msgstr "Категория #%d (удалена)"
+
+#: includes/admin/class-page-settings.php:45
+#: includes/frontend/class-comparison-page.php:161
+msgid "Comparison page"
+msgstr "Страница сравнения"
+
+#: includes/admin/class-page-settings.php:46
+msgid "The comparison table is displayed on the selected page. A page created by the plugin starts with the table shortcode. Your other pages are never overwritten automatically."
+msgstr "Таблица сравнения показывается на выбранной странице. Созданная плагином страница сразу содержит шорткод таблицы. Содержимое других страниц никогда не перезаписывается автоматически."
+
+#: includes/admin/class-page-settings.php:49
+msgid "Current page:"
+msgstr "Текущая страница:"
+
+#: includes/admin/class-page-settings.php:51
+msgid "No published comparison page is selected. Create one or choose an existing page."
+msgstr "Опубликованная страница сравнения не выбрана. Создайте её или выберите существующую."
+
+#: includes/admin/class-page-settings.php:57
+msgid "Page used for comparison"
+msgstr "Страница для сравнения"
+
+#: includes/admin/class-page-settings.php:59
+msgid "Select a page"
+msgstr "Выберите страницу"
+
+#: includes/admin/class-page-settings.php:64
+msgid "Choosing an existing page does not change its content. Enable automatic insertion below if it has no table shortcode."
+msgstr "Выбор существующей страницы не меняет её содержимое. Если шорткода таблицы нет, включите автоматическую вставку ниже."
+
+#: includes/admin/class-page-settings.php:65
+msgid "Save page"
+msgstr "Сохранить страницу"
+
+#: includes/admin/class-page-settings.php:71
+msgid "Create comparison page"
+msgstr "Создать страницу сравнения"
+
+#: includes/admin/class-page-settings.php:77
+msgid "Automatically append the table if the selected page has no table shortcode"
+msgstr "Автоматически добавлять таблицу, если на выбранной странице нет её шорткода"
+
+#: includes/admin/class-page-settings.php:78
+msgid "This does not edit the page in the database and never creates a duplicate when the shortcode is present."
+msgstr "Содержимое страницы в базе не меняется. Если шорткод уже есть, вторая таблица не появится."
+
+#: includes/admin/class-page-settings.php:79
+msgid "Keep the personal comparison page out of search engine results"
+msgstr "Не показывать персональную страницу сравнения в результатах поиска"
+
+#: includes/admin/class-page-settings.php:80
+msgid "Save options"
+msgstr "Сохранить настройки"
+
+#: includes/admin/class-page-settings.php:84
+msgid "Reset page content"
+msgstr "Сбросить содержимое страницы"
+
+#: includes/admin/class-page-settings.php:85
+msgid "This removes the selected page content and leaves only the table shortcode. A copy of the old content is saved for restoration."
+msgstr "Удаляет содержимое выбранной страницы и оставляет только шорткод таблицы. Прежний текст сохраняется для восстановления."
+
+#: includes/admin/class-page-settings.php:86
+msgid "Replace the page content with the comparison table?"
+msgstr "Заменить содержимое страницы шорткодом таблицы сравнения?"
+
+#: includes/admin/class-page-settings.php:89
+msgid "Reset page to table"
+msgstr "Сбросить страницу до таблицы"
+
+#: includes/admin/class-page-settings.php:97
+msgid "Restore content saved before reset"
+msgstr "Восстановить содержимое до сброса"
+
+#: includes/admin/class-settings-app.php:112
+msgid "The settings interface could not be loaded. Please reload the page; if the problem persists, a plugin or browser extension may be blocking the script."
+msgstr "Не удалось загрузить интерфейс настроек. Обновите страницу; если проблема останется, скрипт может блокировать плагин или расширение браузера."
+
+#: includes/admin/class-settings-app.php:114
+msgid "Enable JavaScript to use the comparison settings interface."
+msgstr "Включите JavaScript, чтобы пользоваться настройками сравнения."
+
+#: includes/admin/class-settings-app.php:142
+msgid "General settings"
+msgstr "Общие настройки"
+
+#: includes/admin/class-settings-app.php:143
+msgid "Limits"
+msgstr "Лимиты"
+
+#: includes/admin/class-settings-app.php:144
+msgid "Total limit"
+msgstr "Общий лимит"
+
+#: includes/admin/class-settings-app.php:145
+msgid "How many products a visitor can compare at once (1–50)."
+msgstr "Сколько товаров посетитель может сравнивать одновременно (1–50)."
+
+#: includes/admin/class-settings-app.php:146
+msgid "Per-tab limit"
+msgstr "Лимит на вкладку"
+
+#: includes/admin/class-settings-app.php:147
+msgid "How many products fit into one category tab. It never exceeds the total limit."
+msgstr "Сколько товаров помещается в одну вкладку категории. Этот лимит никогда не превышает общий."
+
+#: includes/admin/class-settings-app.php:148
+msgid "Comparison rule"
+msgstr "Правило сравнения"
+
+#: includes/admin/class-settings-app.php:149
+msgid "How products are split into tabs"
+msgstr "Как товары распределяются по вкладкам"
+
+#: includes/admin/class-settings-app.php:150
+msgid "Tabs group products by category so that only comparable items sit side by side."
+msgstr "Вкладки группируют товары по категориям, чтобы рядом оказывались только сопоставимые товары."
+
+#: includes/admin/class-settings-app.php:151
+msgid "Ignored categories"
+msgstr "Игнорируемые категории"
+
+#: includes/admin/class-settings-app.php:152
+msgid "These categories never become tabs. Hold Ctrl (Cmd on macOS) to select several."
+msgstr "Эти категории никогда не становятся вкладками. Чтобы выбрать несколько, удерживайте Ctrl (Cmd на macOS)."
+
+#: includes/admin/class-settings-app.php:153
+msgid "Name of the “Other” tab"
+msgstr "Название вкладки «Прочее»"
+
+#: includes/admin/class-settings-app.php:154
+msgid "Products without a usable category land here. Leave blank for the built-in translation."
+msgstr "Сюда попадают товары без подходящей категории. Оставьте поле пустым, чтобы использовать встроенный перевод."
+
+#: includes/admin/class-settings-app.php:155
+msgid "Exclusions for automatic buttons"
+msgstr "Исключения для автоматических кнопок"
+
+#: includes/admin/class-settings-app.php:156
+msgid "Hide the automatic “Compare” button for selected products or categories. Shortcodes still work there."
+msgstr "Скрывает автоматическую кнопку «Сравнить» у выбранных товаров или категорий. Шорткоды там продолжают работать."
+
+#: includes/admin/class-settings-app.php:157
+msgid "Excluded products"
+msgstr "Исключённые товары"
+
+#: includes/admin/class-settings-app.php:158
+msgid "Excluded categories"
+msgstr "Исключённые категории"
+
+#: includes/admin/class-settings-app.php:159
+msgid "Search products by name or SKU…"
+msgstr "Поиск товаров по названию или артикулу…"
+
+#: includes/admin/class-settings-app.php:160
+msgid "Nothing found. Type at least two characters."
+msgstr "Ничего не найдено. Введите минимум два символа."
+
+#: includes/admin/class-settings-app.php:161
+msgid "Searching…"
+msgstr "Поиск…"
+
+#: includes/admin/class-settings-app.php:162
+msgid "Add"
+msgstr "Добавить"
+
+#: includes/admin/class-settings-app.php:163
+msgid "Remove"
+msgstr "Удалить"
+
+#: includes/admin/class-settings-app.php:164
+msgid "Product cards"
+msgstr "Карточки товаров"
+
+#: includes/admin/class-settings-app.php:165
+msgid "Product page"
+msgstr "Страница товара"
+
+#: includes/admin/class-settings-app.php:166
+msgid "The list is empty."
+msgstr "Список пуст."
+
+#: includes/admin/class-settings-app.php:167
+msgid "Look and offsets"
+msgstr "Вид и отступы"
+
+#: includes/admin/class-settings-app.php:168
+msgid "Accent color"
+msgstr "Акцентный цвет"
+
+#: includes/admin/class-settings-app.php:169
+msgid "Buttons, counter and highlights are derived from this color."
+msgstr "Кнопки, счётчик и подсветка строятся на этом цвете."
+
+#: includes/admin/class-settings-app.php:170
+msgid "Top offset"
+msgstr "Отступ сверху"
+
+#: includes/admin/class-settings-app.php:171
+msgid "Bottom offset"
+msgstr "Отступ снизу"
+
+#: includes/admin/class-settings-app.php:172
+msgid "Reserved space for a fixed header or bar, for example 80px or 4rem."
+msgstr "Запас места под фиксированную шапку или панель, например 80px или 4rem."
+
+#: includes/admin/class-settings-app.php:173
+msgid "Top offset on the phone"
+msgstr "Отступ сверху на телефоне"
+
+#: includes/admin/class-settings-app.php:174
+msgid "Bottom offset on the phone"
+msgstr "Отступ снизу на телефоне"
+
+#: includes/admin/class-settings-app.php:175
+msgid "Leave blank to use the computer value."
+msgstr "Оставьте пустым, чтобы использовать значение для компьютера."
+
+#: includes/admin/class-settings-app.php:176
+msgid "Save changes"
+msgstr "Сохранить изменения"
+
+#: includes/admin/class-settings-app.php:177
+msgid "Saving…"
+msgstr "Сохранение…"
+
+#: includes/admin/class-settings-app.php:178
+msgid "Reset this tab"
+msgstr "Сбросить эту вкладку"
+
+#: includes/admin/class-settings-app.php:179
+msgid "Restore the General tab to default values? Other tabs are not affected."
+msgstr "Вернуть вкладке «Общие» значения по умолчанию? Другие вкладки не затрагиваются."
+
+#: includes/admin/class-settings-app.php:180
+msgid "The request failed. Please reload the page and try again."
+msgstr "Запрос не выполнен. Обновите страницу и попробуйте снова."
+
+#: includes/admin/class-settings-app.php:183
+msgid "Buttons and notifications"
+msgstr "Кнопки и уведомления"
+
+#: includes/admin/class-settings-app.php:184
+msgid "Button position"
+msgstr "Позиция кнопки"
+
+#: includes/admin/class-settings-app.php:185
+msgid "On product cards"
+msgstr "На карточках товаров"
+
+#: includes/admin/class-settings-app.php:186
+msgid "On the product page"
+msgstr "На странице товара"
+
+#: includes/admin/class-settings-app.php:187
+msgid "“Hidden (shortcode only)” turns off the automatic button; place it manually with the [rvn-compare-button] shortcode."
+msgstr "«Скрыта (только шорткод)» отключает автоматическую кнопку; добавьте её вручную шорткодом [rvn-compare-button]."
+
+#: includes/admin/class-settings-app.php:188
+msgid "Button mode"
+msgstr "Режим кнопки"
+
+#: includes/admin/class-settings-app.php:189
+msgid "On product cards — computer"
+msgstr "На карточках товаров — компьютер"
+
+#: includes/admin/class-settings-app.php:190
+msgid "On product cards — phone"
+msgstr "На карточках товаров — телефон"
+
+#: includes/admin/class-settings-app.php:191
+msgid "On the product page — computer"
+msgstr "На странице товара — компьютер"
+
+#: includes/admin/class-settings-app.php:192
+msgid "On the product page — phone"
+msgstr "На странице товара — телефон"
+
+#: includes/admin/class-settings-app.php:193
+msgid "“Same as computer” copies the desktop mode to phones."
+msgstr "«Как на компьютере» переносит режим компьютера на телефоны."
+
+#: includes/admin/class-settings-app.php:194
+msgid "Button texts"
+msgstr "Тексты кнопок"
+
+#: includes/admin/class-settings-app.php:195
+msgid "“Compare” state"
+msgstr "Состояние «Сравнить»"
+
+#: includes/admin/class-settings-app.php:196
+msgid "“In comparison” state"
+msgstr "Состояние «В сравнении»"
+
+#: includes/admin/class-settings-app.php:197
+msgid "Leave empty to use the built-in translation."
+msgstr "Оставьте пустым, чтобы использовать встроенный перевод."
+
+#: includes/admin/class-settings-app.php:198
+msgid "Behavior"
+msgstr "Поведение"
+
+#: includes/admin/class-settings-app.php:199
+msgid "When a visitor clicks an active button"
+msgstr "Когда посетитель нажимает на активную кнопку"
+
+#: includes/admin/class-settings-app.php:200
+msgid "The button is active when the product is already in the comparison list."
+msgstr "Кнопка активна, когда товар уже находится в списке сравнения."
+
+#: includes/admin/class-settings-app.php:201
+msgid "Button icon"
+msgstr "Иконка кнопки"
+
+#: includes/admin/class-settings-app.php:202
+msgid "Icon"
+msgstr "Иконка"
+
+#: includes/admin/class-settings-app.php:203
+msgid "Built-in set, one custom emoji, or no icon at all."
+msgstr "Встроенный набор, один свой emoji или вообще без иконки."
+
+#: includes/admin/class-settings-app.php:204
+msgid "Your emoji (one symbol)"
+msgstr "Ваш emoji (один символ)"
+
+#: includes/admin/class-settings-app.php:205
+msgid "An empty value falls back to the built-in icon set."
+msgstr "Пустое значение откатывается к встроенному набору иконок."
+
+#: includes/admin/class-settings-app.php:206
+msgid "Where to show the automatic button"
+msgstr "Где показывать автоматическую кнопку"
+
+#: includes/admin/class-settings-app.php:207
+msgid "Applies to product cards. The product page is governed by its position setting; shortcodes with an explicit ID are never limited."
+msgstr "Действует на карточки товаров. Страницу товара управляет её позиция; шорткоды с явным ID не ограничиваются никогда."
+
+#: includes/admin/class-settings-app.php:208
+msgid "WooCommerce contexts"
+msgstr "Контексты WooCommerce"
+
+#: includes/admin/class-settings-app.php:209
+msgid "Page restrictions by URL"
+msgstr "Ограничения по страницам (URL)"
+
+#: includes/admin/class-settings-app.php:210
+msgid "Mode"
+msgstr "Режим"
+
+#: includes/admin/class-settings-app.php:211
+msgid "Page masks, one per line"
+msgstr "Маски страниц, по одной в строке"
+
+#: includes/admin/class-settings-app.php:212
+msgid "Use * as a wildcard, for example: sale/* or /about-us. An empty list means no restrictions."
+msgstr "Используйте * как подстановку, например: sale/* или /about-us. Пустой список означает отсутствие ограничений."
+
+#: includes/admin/class-settings-app.php:215
+msgid "Notifications (toasts)"
+msgstr "Уведомления"
+
+#: includes/admin/class-settings-app.php:216
+msgid "A notification appears after a visitor adds or removes a product. These settings apply to the whole site."
+msgstr "Уведомление появляется, когда посетитель добавляет или убирает товар. Эти настройки действуют на весь сайт."
+
+#: includes/admin/class-settings-app.php:217
+msgid "Position on the computer"
+msgstr "Позиция на компьютере"
+
+#: includes/admin/class-settings-app.php:218
+msgid "Position on the phone"
+msgstr "Позиция на телефоне"
+
+#: includes/admin/class-settings-app.php:219
+msgid "How long a notification stays, ms"
+msgstr "Сколько показывается уведомление, мс"
+
+#: includes/admin/class-settings-app.php:220
+msgid "From 0 to 15000. 0 keeps the notification until the visitor closes it."
+msgstr "От 0 до 15000. 0 — уведомление остаётся, пока посетитель его не закроет."
+
+#: includes/admin/class-settings-app.php:221
+msgid "Notification texts"
+msgstr "Тексты уведомлений"
+
+#: includes/admin/class-settings-app.php:222
+msgid "Available substitutions: {product}, {category}, {count}, {limit}. An empty field uses the built-in translation."
+msgstr "Доступные подстановки: {product}, {category}, {count}, {limit}. Пустое поле — встроенный перевод."
+
+#: includes/admin/class-settings-app.php:223
+msgid "When a product is added"
+msgstr "Когда товар добавлен"
+
+#: includes/admin/class-settings-app.php:224
+msgid "When a product is removed"
+msgstr "Когда товар убран"
+
+#: includes/admin/class-settings-app.php:225
+msgid "When the list is full"
+msgstr "Когда список заполнен"
+
+#: includes/admin/class-settings-app.php:226
+msgid "When the category tab is full"
+msgstr "Когда вкладка категории заполнена"
+
+#: includes/admin/class-settings-page.php:41
+msgid "Compare settings sections"
+msgstr "Разделы настроек сравнения"
+
+#: includes/admin/class-settings-page.php:54
+msgid "General"
+msgstr "Общие"
+
+#: includes/admin/class-settings-page.php:67
+msgid "Buttons & toasts"
+msgstr "Кнопки и уведомления"
+
+#: includes/admin/class-settings-page.php:80
+msgid "Page"
+msgstr "Страница"
+
+#: includes/admin/class-settings-page.php:93
+#: includes/admin/class-table-settings.php:40
+msgid "Comparison fields"
+msgstr "Таблица характеристик"
+
+#: includes/admin/class-settings-page.php:106
+#: includes/admin/class-settings-page.php:115
+msgid "System status"
+msgstr "Состояние системы"
+
+#: includes/admin/class-settings-page.php:121
+msgid "Required"
+msgstr "Требуется"
+
+#: includes/admin/class-settings-page.php:122
+msgid "Status"
+msgstr "Статус"
+
+#: includes/admin/class-settings-page.php:155
+#: includes/admin/class-settings-page.php:190
+msgid "OK"
+msgstr "В порядке"
+
+#: includes/admin/class-settings-page.php:165
+msgid "Not required"
+msgstr "Не требуется"
+
+#: includes/admin/class-settings-page.php:166
+msgid "Compatible"
+msgstr "Совместим"
+
+#. translators: %s: Minimum version number.
+#: includes/admin/class-settings-page.php:186
+#, php-format
+msgid "%s or newer"
+msgstr "%s или новее"
+
+#: includes/admin/class-settings-page.php:191
+msgid "Update required"
+msgstr "Требуется обновление"
+
+#: includes/admin/class-table-settings.php:41
+msgid "Enable fields, edit their names and hints, assign groups and change their order. Newly discovered WooCommerce attributes appear at the bottom."
+msgstr "Включайте поля, редактируйте названия и подсказки, назначайте группы и порядок. Новые атрибуты WooCommerce появляются в конце списка."
+
+#: includes/admin/class-table-settings.php:45
+msgid "Field groups"
+msgstr "Группы характеристик"
+
+#: includes/admin/class-table-settings.php:46
+msgid "Groups become section headings in the comparison table. Enter a custom name or leave it blank to use the current site language."
+msgstr "Группы образуют заголовки-разделители в таблице. Введите своё название или оставьте поле пустым для перевода на язык сайта."
+
+#: includes/admin/class-table-settings.php:56
+#: includes/admin/class-table-settings.php:64
+msgid "Show"
+msgstr "Показывать"
+
+#: includes/admin/class-table-settings.php:57
+msgid "Collapsed initially"
+msgstr "Свернута по умолчанию"
+
+#: includes/admin/class-table-settings.php:61
+msgid "Fields"
+msgstr "Поля таблицы"
+
+#: includes/admin/class-table-settings.php:63
+#: includes/admin/class-table-settings.php:75
+msgid "Order"
+msgstr "Порядок"
+
+#: includes/admin/class-table-settings.php:65
+msgid "Name and technical key"
+msgstr "Название и технический ключ"
+
+#: includes/admin/class-table-settings.php:66
+msgid "Hint (optional)"
+msgstr "Подсказка (необязательно)"
+
+#: includes/admin/class-table-settings.php:67
+#: includes/admin/class-table-settings.php:79
+#: includes/class-category-model.php:212
+#: includes/class-category-model.php:216
+#: includes/class-table-fields.php:393
+msgid "Group"
+msgstr "Группа"
+
+#: includes/admin/class-table-settings.php:77
+msgid "Custom field name"
+msgstr "Свое название поля"
+
+#: includes/admin/class-table-settings.php:78
+msgid "Field hint"
+msgstr "Подсказка у поля"
+
+#: includes/admin/class-table-settings.php:78
+msgid "Hint text (optional)"
+msgstr "Текст подсказки (необязательно)"
+
+#: includes/admin/class-table-settings.php:89
+msgid "Table behavior"
+msgstr "Поведение таблицы"
+
+#: includes/admin/class-table-settings.php:90
+msgid "Enable newly created WooCommerce attributes automatically"
+msgstr "Автоматически включать новые атрибуты WooCommerce"
+
+#: includes/admin/class-table-settings.php:91
+msgid "Hide attributes not assigned to any product in the active category"
+msgstr "Скрывать атрибуты, не назначенные ни одному товару текущей категории"
+
+#: includes/admin/class-table-settings.php:92
+msgid "Hide rows whose values are all empty"
+msgstr "Скрывать строки, в которых все значения пустые"
+
+#: includes/admin/class-table-settings.php:93
+msgid "Highlight rows with different values"
+msgstr "Подсвечивать строки с различающимися значениями"
+
+#: includes/admin/class-table-settings.php:94
+msgid "Show the Only differences switch to customers"
+msgstr "Показывать покупателям переключатель «Только различия»"
+
+#: includes/admin/class-table-settings.php:95
+msgid "Show descriptions of global attribute values in tooltips"
+msgstr "Показывать описания значений глобальных атрибутов в подсказках"
+
+#: includes/admin/class-table-settings.php:96
+msgid "Normalize whitespace and case when finding differences"
+msgstr "Нормализовать пробелы и регистр при поиске различий"
+
+#: includes/admin/class-table-settings.php:97
+msgid "Normalization affects highlighting, not displayed values. Turn it off if it hides an important distinction between products."
+msgstr "Нормализация влияет только на подсветку, не на отображаемые значения. Отключите её, если она скрывает важные отличия."
+
+#: includes/admin/class-table-settings.php:98
+msgid "Difference highlight color"
+msgstr "Цвет подсветки различий"
+
+#: includes/admin/class-table-settings.php:99
+msgid "Save table settings"
+msgstr "Сохранить настройки таблицы"
+
+#: includes/admin/class-table-settings.php:102
+msgid "Add a product meta field"
+msgstr "Добавить мета-поле товара"
+
+#: includes/admin/class-table-settings.php:103
+msgid "Only add public scalar text, number or yes/no fields. Meta fields added here become visible to every customer. Private keys (starting with an underscore) and sensitive names are refused."
+msgstr "Добавляйте только публичные текстовые, числовые поля или «да/нет». Поля здесь увидят все покупатели. Приватные ключи (с подчёркивания) и чувствительные названия запрещены."
+
+#: includes/admin/class-table-settings.php:107
+msgid "Meta key"
+msgstr "Ключ мета-поля"
+
+#: includes/admin/class-table-settings.php:108
+msgid "Display name"
+msgstr "Отображаемое название"
+
+#: includes/admin/class-table-settings.php:108
+msgid "Battery capacity"
+msgstr "Ёмкость аккумулятора"
+
+#: includes/admin/class-table-settings.php:109
+msgid "Type"
+msgstr "Тип"
+
+#: includes/admin/class-table-settings.php:109
+msgid "Text"
+msgstr "Текст"
+
+#: includes/admin/class-table-settings.php:109
+msgid "Number"
+msgstr "Число"
+
+#: includes/admin/class-table-settings.php:109
+msgid "Yes / No"
+msgstr "Да / нет"
+
+#: includes/admin/class-table-settings.php:110
+msgid "Add field"
+msgstr "Добавить поле"
+
+#: includes/class-category-model.php:198
+msgid "Other"
+msgstr "Прочее"
+
+#: includes/class-category-model.php:202
+msgid "All products"
+msgstr "Все товары"
+
+#. translators: %d: Product category ID.
+#: includes/class-category-model.php:225
+#, php-format
+msgid "Category %d"
+msgstr "Категория %d"
+
+#. translators: 1: Category or group name. 2: Number of products in it. 3: Limit of products in a category.
+#: includes/class-compare-service.php:316
+#: includes/frontend/class-toasts.php:62
+#, php-format
+msgid "Category \"%1$s\" already has %2$d of %3$d products. Remove one to add another."
+msgstr "В категории «%1$s» уже %2$d из %3$d товаров. Удалите один товар, чтобы добавить новый."
+
+#. translators: 1: Number of products in the comparison list. 2: Total limit of products.
+#: includes/class-compare-service.php:325
+#: includes/frontend/class-toasts.php:60
+#, php-format
+msgid "Comparison list is full: %1$d of %2$d products."
+msgstr "Список сравнения заполнен: %1$d из %2$d товаров."
+
+#. translators: %s: Plugin name.
+#: includes/class-requirements.php:92
+#, php-format
+msgid "%s is inactive until the following requirements are met:"
+msgstr "Плагин %s не работает, пока не выполнены требования:"
+
+#. translators: 1: Required WordPress version. 2: Current WordPress version.
+#: includes/class-requirements.php:133
+#, php-format
+msgid "WordPress %1$s or newer is required. Current version: %2$s."
+msgstr "Требуется WordPress %1$s или новее. Текущая версия: %2$s."
+
+#. translators: 1: Required WooCommerce version. 2: Current WooCommerce version.
+#: includes/class-requirements.php:142
+#, php-format
+msgid "WooCommerce %1$s or newer is required. Current version: %2$s."
+msgstr "Требуется WooCommerce %1$s или новее. Текущая версия: %2$s."
+
+#. translators: %s: Required WooCommerce version.
+#: includes/class-requirements.php:150
+#, php-format
+msgid "WooCommerce %s or newer must be installed and active."
+msgstr "Должен быть установлен и активирован WooCommerce %s или новее."
+
+#: includes/class-requirements.php:177
+msgid "Activate WooCommerce"
+msgstr "Активировать WooCommerce"
+
+#: includes/class-requirements.php:182
+msgid "Install WooCommerce"
+msgstr "Установить WooCommerce"
+
+#: includes/class-requirements.php:192
+msgid "Go to updates"
+msgstr "Перейти к обновлениям"
+
+#: includes/class-table-data.php:145
+msgid "Buy"
+msgstr "Купить"
+
+#: includes/class-table-data.php:148
+msgid "Choose an option"
+msgstr "Выбрать вариант"
+
+#: includes/class-table-data.php:151
+msgid "View product"
+msgstr "Перейти к товару"
+
+#: includes/class-table-data.php:153
+msgid "Unavailable"
+msgstr "Нет в наличии"
+
+#: includes/class-table-data.php:208
+msgid "Yes"
+msgstr "Да"
+
+#: includes/class-table-data.php:208
+msgid "No"
+msgstr "Нет"
+
+#: includes/class-table-data.php:250
+msgid "In stock"
+msgstr "В наличии"
+
+#: includes/class-table-data.php:250
+msgid "Out of stock"
+msgstr "Нет в наличии"
+
+#. translators: 1: Average rating. 2: Rating count.
+#: includes/class-table-data.php:256
+#, php-format
+msgid "%1$s of 5 (%2$d reviews)"
+msgstr "%1$s из 5 (отзывов: %2$d)"
+
+#: includes/class-table-fields.php:74
+msgid "Price"
+msgstr "Цена"
+
+#: includes/class-table-fields.php:79
+msgid "SKU"
+msgstr "Артикул"
+
+#: includes/class-table-fields.php:84
+msgid "Availability"
+msgstr "Наличие"
+
+#: includes/class-table-fields.php:89
+msgid "Rating"
+msgstr "Рейтинг"
+
+#: includes/class-table-fields.php:94
+msgid "Brand"
+msgstr "Бренд"
+
+#: includes/class-table-fields.php:99
+msgid "Weight"
+msgstr "Вес"
+
+#: includes/class-table-fields.php:104
+msgid "Dimensions"
+msgstr "Размеры"
+
+#: includes/class-table-fields.php:109
+msgid "Short description"
+msgstr "Краткое описание"
+
+#: includes/class-table-fields.php:114
+msgid "Description"
+msgstr "Описание"
+
+#: includes/class-table-fields.php:387
+msgid "Main features"
+msgstr "Основное"
+
+#: includes/class-table-fields.php:389
+msgid "Weight and dimensions"
+msgstr "Вес и размеры"
+
+#: includes/class-table-fields.php:391
+msgid "Specifications"
+msgstr "Характеристики"
+
+#. translators: %s: Name of the active category.
+#: includes/frontend/class-assets.php:164
+#, php-format
+msgid "Clear %s"
+msgstr "Очистить %s"
+
+#: includes/frontend/class-assets.php:165
+msgid "products in this category"
+msgstr "товаров в категории"
+
+#: includes/frontend/class-assets.php:166
+msgid "The selected products have no differing values in the visible rows."
+msgstr "У выбранных товаров нет различий в показанных характеристиках."
+
+#: includes/frontend/class-assets.php:167
+msgid "Select a comparison category"
+msgstr "Выберите категорию для сравнения"
+
+#: includes/frontend/class-assets.php:168
+msgid "Could not load products. Please try again."
+msgstr "Не удалось загрузить товары. Попробуйте ещё раз."
+
+#: includes/frontend/class-assets.php:169
+#: includes/frontend/class-toasts.php:69
+msgid "Remove all products from comparison?"
+msgstr "Удалить все товары из списка сравнения?"
+
+#: includes/frontend/class-assets.php:170
+#: includes/frontend/class-toasts.php:70
+msgid "Remove all products from this category?"
+msgstr "Удалить все товары из этой категории?"
+
+#: includes/frontend/class-assets.php:172
+msgid "More information"
+msgstr "Дополнительная информация"
+
+#: includes/frontend/class-button-renderer.php:57
+msgid "In comparison"
+msgstr "Уже в сравнении"
+
+#: includes/frontend/class-button-renderer.php:215
+#: includes/frontend/class-table-view.php:43
+msgid "Clear all"
+msgstr "Очистить всё"
+
+#. translators: 1: Number of products in the current tab. 2: Limit of products per category.
+#: includes/frontend/class-button-renderer.php:252
+#: includes/frontend/class-button-renderer.php:260
+#, php-format
+msgid "%1$d of %2$d"
+msgstr "%1$d из %2$d"
+
+#: includes/frontend/class-comparison-page.php:149
+#: includes/frontend/class-table-view.php:33
+msgid "Product comparison"
+msgstr "Сравнение товаров"
+
+#: includes/frontend/class-comparison-page.php:316
+msgid "You are not allowed to change the comparison page."
+msgstr "У вас нет прав изменять страницу сравнения."
+
+#. translators: 1: Shortcode name. 2: Missing argument name.
+#: includes/frontend/class-frontend.php:44
+#, php-format
+msgid "RVN Compare: shortcode %1$s outside a product loop needs the \"%2$s\" argument."
+msgstr "RVN Compare: шорткод %1$s вне карточки товара требует аргумент «%2$s»."
+
+#: includes/frontend/class-table-view.php:31
+msgid "Compare products"
+msgstr "Сравнение товаров"
+
+#: includes/frontend/class-table-view.php:32
+msgid "YOUR SHORTLIST"
+msgstr "ВАШ СПИСОК"
+
+#: includes/frontend/class-table-view.php:34
+msgid "Find what sets your products apart."
+msgstr "Выберите товары и посмотрите, чем они отличаются."
+
+#: includes/frontend/class-table-view.php:36
+msgid "Loading your comparison…"
+msgstr "Загружаем список сравнения…"
+
+#: includes/frontend/class-table-view.php:37
+msgid "Nothing to compare yet"
+msgstr "Пока нечего сравнивать"
+
+#: includes/frontend/class-table-view.php:38
+msgid "Choose products in the shop and they will appear here."
+msgstr "Выберите товары в магазине — они появятся здесь."
+
+#: includes/frontend/class-table-view.php:39
+msgid "Explore the shop"
+msgstr "Перейти в магазин"
+
+#: includes/frontend/class-table-view.php:41
+msgid "Comparison categories"
+msgstr "Категории сравнения"
+
+#: includes/frontend/class-table-view.php:42
+msgid "Only differences"
+msgstr "Только различия"
+
+#: includes/frontend/class-table-view.php:45
+msgid "Previous product"
+msgstr "Предыдущий товар"
+
+#: includes/frontend/class-table-view.php:45
+msgid "Next product"
+msgstr "Следующий товар"
+
+#: includes/frontend/class-table-view.php:46
+msgid "Compared products"
+msgstr "Сравниваемые товары"
+
+#: includes/frontend/class-table-view.php:49
+msgid "Enable JavaScript to view your comparison list."
+msgstr "Включите JavaScript, чтобы увидеть список сравнения."
+
+#: includes/frontend/class-toasts.php:56
+msgid "Product added to the comparison list"
+msgstr "Товар добавлен в список сравнения"
+
+#: includes/frontend/class-toasts.php:57
+msgid "Product removed from the comparison list"
+msgstr "Товар удалён из списка сравнения"
+
+#: includes/frontend/class-toasts.php:58
+msgid "Comparison list cleared"
+msgstr "Список сравнения очищен"
+
+#. translators: %d: Number of products added when merging the guest list with the account list.
+#: includes/frontend/class-toasts.php:64
+#, php-format
+msgid "Comparison list merged: %d products added"
+msgstr "Список сравнения объединён: добавлено товаров: %d"
+
+#: includes/frontend/class-toasts.php:65
+msgid "Undo"
+msgstr "Отменить"
+
+#: includes/frontend/class-toasts.php:66
+msgid "Close notification"
+msgstr "Закрыть уведомление"
+
+#: includes/frontend/class-toasts.php:67
+msgid "This product is no longer available"
+msgstr "Товар больше недоступен"
+
+#: includes/frontend/class-toasts.php:68
+msgid "Could not update your comparison list. Please try again."
+msgstr "Не удалось обновить список сравнения. Попробуйте ещё раз."
+
+#: includes/frontend/class-toasts.php:71
+msgid "Your comparison list is empty"
+msgstr "Ваш список сравнения пуст"
+
+#: includes/rest/class-rest-controller.php:206
+msgid "Invalid security token. Reload the page and try again."
+msgstr "Неверный ключ защиты. Обновите страницу и повторите попытку."
+
+#: includes/rest/class-rest-controller.php:316
+msgid "Too many requests. Try again in a minute."
+msgstr "Слишком много запросов. Повторите попытку через минуту."
+
+#. translators: 1: Plugin name. 2: Required PHP version. 3: Current PHP version.
+#: rvn-compare-products-for-woocommerce.php:93
+#, php-format
+msgid "%1$s requires PHP %2$s or newer. Your server runs PHP %3$s. Please ask your hosting provider to update PHP."
+msgstr "Плагину %1$s требуется PHP %2$s или новее. На вашем сервере установлен PHP %3$s. Попросите хостинг-провайдера обновить PHP."
+
+#: rvn-core/class-core.php:123
+#: rvn-core/class-core.php:124
+#: rvn-core/class-core.php:162
+msgid "Support"
+msgstr "Поддержка"
+
+#: rvn-core/class-core.php:163
+msgid "This section will be available soon."
+msgstr "Будет реализовано в скором времени."
